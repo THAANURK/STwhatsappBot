@@ -3,7 +3,7 @@
 """
 Created on Wed Jun 20 11:06:43 2018
 
-@author: prasunsarkar
+@author: ShreeThaanu
 """
 
 from selenium import webdriver
@@ -14,7 +14,7 @@ from selenium.webdriver.common.by import By
 import time
 import sys
 
-driver = webdriver.Chrome('/Users/prasunsarkar/Downloads/chromedrivers')
+driver = webdriver.Chrome('/Users/ShreeThaanu/Downloads/chromedrivers')
 
 driver.get("https://web.whatsapp.com/")
 wait = WebDriverWait(driver, 600)
